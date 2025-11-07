@@ -15,7 +15,6 @@ RUN set -eux; \
 		netbase \
 		sq \
 		wget \
-# https://bugs.debian.org/929417
 		tzdata \
 	; \
 	apt-get dist-clean
